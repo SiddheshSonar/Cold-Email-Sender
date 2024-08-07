@@ -51,10 +51,13 @@ Use pip to install the required packages:
     - Update the subject and body_template variables in the script to personalize your email's subject line and body.
 
 ## Notes
-    - Email Security: Ensure that your credentials are not hardcoded in publicly accessible code. Consider using environment variables or a secure vault.
-    - Email Limits: Be aware of your email provider's sending limits to avoid being flagged as spam.
-    - Testing: Before sending emails to a large list, test the script with a small number of contacts to ensure it works as expected.
-    - This project uses the following Python libraries:
-    pandas for handling CSV files
-    smtplib for sending emails via SMTP
-    email for constructing email messages
+1. Email Security: Ensure that your credentials are not hardcoded in publicly accessible code. Consider using environment variables or a secure vault.
+
+2. Email Limits: Be aware of your email provider's sending limits to avoid being flagged as spam.
+
+3. Testing: Before sending emails to a large list, test the script with a small number of contacts to ensure it works as expected.
+
+4. This project uses the following Python libraries:
+    - pandas for handling CSV files
+    - smtplib for sending emails via SMTP
+    - email for constructing email messages
