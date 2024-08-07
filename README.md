@@ -30,7 +30,7 @@ Use pip to install the required packages:
    pip install pandas
    ```
 
-3. **Setup**
+## Setup
 
 1. Csv File:
     - Ensure you have a CSV file named hr_contacts.csv in the same directory as the script. The CSV should have the following columns:
@@ -50,7 +50,7 @@ Use pip to install the required packages:
 4. Customize Email Content:
     - Update the subject and body_template variables in the script to personalize your email's subject line and body.
 
-4 **Notes**
+## Notes
     - Email Security: Ensure that your credentials are not hardcoded in publicly accessible code. Consider using environment variables or a secure vault.
     - Email Limits: Be aware of your email provider's sending limits to avoid being flagged as spam.
     - Testing: Before sending emails to a large list, test the script with a small number of contacts to ensure it works as expected.
