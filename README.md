@@ -58,6 +58,6 @@ Use pip to install the required packages:
 3. Testing: Before sending emails to a large list, test the script with a small number of contacts to ensure it works as expected.
 
 4. This project uses the following Python libraries:
-    - pandas for handling CSV files
-    - smtplib for sending emails via SMTP
-    - email for constructing email messages
+    - [pandas](https://pandas.pydata.org/) for handling CSV files
+    - [smtplib](https://docs.python.org/3/library/smtplib.html) for sending emails
+    - [email](https://docs.python.org/3/library/email.html) for composing email messages
